@@ -9,9 +9,6 @@
 # First we will go ahead and add the universe repo
 sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe"
 
-# Now let's go ahead and add 64bit to the architecture
-sudo dpkg --add-architecture
-
 # Add the Zombie hal PPA
 sudo add-apt-repository ppa:mjblenner/ppa-hal && sudo apt-get update
 
